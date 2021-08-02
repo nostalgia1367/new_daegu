@@ -1,0 +1,57 @@
+#header{
+    height: 99px;
+    border-bottom: 1px solid #c5c5c5;
+}
+#header > div {
+    width:1200px;
+    margin:0 auto;
+}
+#header > div > *{
+    float:left;
+}
+#header h1{
+    padding: 0 20px 0 0;
+}
+#header #lnb li{
+    float: left;
+    padding: 0 16px;
+}
+#header #lnb li a{
+    display: block;
+    height: 99px; 
+    line-height: 99px;
+    font-family: 16px bold #333;
+}
+#header #lnb li a:hover {
+    height: 95px;
+    border-bottom:4px soild #1764dc;
+    background: url(./index_images/bg_lnb.gif) no-repeat center 87px;
+    color: #3c91f3;
+}
+#header  p {
+    height: 99px;
+    line-height: 99px;
+    color:#0e3c84;
+    font-size: 22px;
+    font-weight: bold;
+}
+#header p span {
+    color: #1764dc;
+}
+#header > div > div{
+    padding: 30px 0 0 11px;
+    font-size: 0;
+}
+#header > div > div a {
+    vertical-align: middle ;
+}
+#header .btn_pop{
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    background :url(./index_images/bu_arrow_down.gif) #2cc06b;
+    color: white;
+    font-size: 13px;
+    line-height: 35px;
+    text-indent: 9px;
+}
