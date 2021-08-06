@@ -55,3 +55,58 @@
     line-height: 35px;
     text-indent: 9px;
 }
+
+#visual{
+    background: url(./index_images/bg_visual.jpg) no-repeat center top;
+    background-color: rgb(186, 253, 253);
+}
+#visual .copy > div{
+    float:left;
+    width: 33.33%;
+}
+#visual > div {
+    width: 1200px;
+    margin: 0 auto;
+}
+#visual .copy .txt1{
+    font-size:50px; font-weight: bold; color: #fff;
+   /*  text-align: center; */
+    letter-spacing: 12px;
+}
+#visual .copy .txt1 div{
+    font-size:33px; font-weight: bold; color: #fff;
+    letter-spacing: 0;
+}
+#visual .copy .txt1 img{
+    margin: 0 13px 0 0;
+}
+#visual .copy .txt2{
+    background: url(./index_images/bg_circle.png) no-repeat center;
+    width: 334px; height: 264px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 80px;
+}
+#visual .copy .txt2 div{
+    font-size: 135px;
+    color: #fff;
+}
+#visual .copy .txt3{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing:21px;
+}
+#visual .copy .txt3 div{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 7px;
+}
+/* #visual div .a,#visual div .b{
+    clear: both;
+}*/
+
+
