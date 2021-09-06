@@ -1,0 +1,332 @@
+#header{
+    height: 99px;
+    border-bottom: 1px solid #c5c5c5;
+}
+#header > div {
+    width: 1200px;
+    margin: 0 auto;
+}
+#header > div > *{
+    float: left;
+}
+#header h1{
+    padding:0 20px 0 0;
+}
+#header #lnb li{
+    float: left;
+    padding: 0 16px;
+}
+#header #lnb li a{
+    display: block;
+    height: 99px;
+    line-height: 99px;
+    font-weight: bold;
+    color: #333;
+}
+#header #lnb li a:hover{
+    height: 95px;
+    border-bottom: 4px solid #1764dc;
+    color: #3c91f3;
+    background: url(../index_images/bg_lnb.gif) no-repeat center 87px;
+}
+#header p{
+    height: 99px;
+    line-height: 99px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #0e3c84;
+    float: left;
+}
+#header p span{
+    color: #1764dc;
+}
+#header > div > div{
+    float: right;
+}
+#header > div > div > div{
+    padding: 30px 0 0 11px;
+    font-size: 0;
+    float: left;
+}
+#header .btn_pop{
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    background:url(../index_images/bu_arrow_down.gif) no-repeat 55px center #2cc06b;
+    font-size: 13px;
+    color: #fff;
+    text-indent: 9px;
+    position: relative;
+}
+#header .btn_pop span{
+    position: absolute;
+    top: 8px;
+    left: 1px;
+}
+#header > div > div a{
+    vertical-align: middle;
+}
+
+#sub_visual{
+    background: url(../sub/images/index/bg_visual1.png) no-repeat center top;
+    height: 340px;
+    position: relative;
+}
+#sub_visual::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #070f08;
+    background: rgba(0,0,0,0.3);
+}
+#sub_visual > div{
+    margin: 0 auto;
+    width: 1200px;
+    height: 340px;
+    position: relative;
+}
+#sub_visual > div > p{
+    text-align: center;
+    padding: 112px 0 0 0;
+    color: #fff;
+    font-size: 35px;
+}
+#sub_visual > div > p span{
+    display: block;
+    font-size: 18px;
+}
+#sub_visual > div > p em{
+
+}
+#sub_visual > div > p ins{
+    background: url(../sub/images/common/ico_arrow.png) no-repeat center;
+    width: 37px;
+    height: 11px;
+    display: inline-block;
+    font-size: 0;
+    color: transparent;
+    vertical-align: middle;
+}
+#sub_visual > div .left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#sub_visual > div .left > a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url(../sub/images/common/ico_home.png) no-repeat center #dc300a;
+    font-size: 0;
+    vertical-align: middle;
+
+    float: left ;
+}
+#sub_visual > div .left ul{
+    float: left;
+}
+#sub_visual > div .left ul li{
+    float: left;
+}
+#sub_visual > div .left ul li a{
+    display: block;
+    width: 171px;
+    height: 60px;
+    color: #fff;
+    line-height: 60px;
+    text-indent: 20px;
+    border-right: 1px solid #0f1013;
+}
+#sub_visual > div .left ul li.ico1 a{
+    background: url(../sub/images/common/ico_bar.png) no-repeat 142px center;
+}
+#sub_visual > div .left ul li.ico2 a{
+    background: url(../sub/images/common/ico_arrow2.png) no-repeat 142px center;
+}
+#sub_visual > div .right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#sub_visual > div .right ul{
+    border-right: 1px solid #1d1c1d;
+}
+#sub_visual > div .right ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#sub_visual > div .right li{
+    float: left;
+}
+#sub_visual > div .right li a{
+    display: block;
+    width: 59px;
+    height: 59px;
+    border-left: 1px solid #1d1c1d;
+}
+#sub_visual > div .right li ul{
+    display: none;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+#container{
+    margin: 0 auto;
+    width: 1200px;
+}
+#container #snb{
+    float: left;
+    width: 229px;
+    padding: 30px 29px 0 0;
+}
+#container #snb h2{
+    height: 91px;
+    background: #333f52;
+    font-size: 21px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    padding: 49px 0 0 0;
+}
+#container #snb h2 span{
+    display: block;
+    color: #8f939b;
+    font-size: 12px;
+    padding: 13px 0 0 0;
+}
+#container #snb li a{
+    height: 54px;
+    line-height: 54px;
+    text-indent: 25px; 
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+}
+#container #snb li a:hover{
+    color:  #1354bb;
+    text-indent: 61px;
+}
+#container #snb li a:hover::after{
+    content: "";
+    display: block;
+    width: 45px;
+    height: 54px;
+    background: url(../sub/images/common/bg_snb.png) no-repeat center #1354bb;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+#container #contents{
+    float: left;
+    border-left: 1px solid #e0e0e0;
+    width: 880px;
+    padding: 65px 0 79px 60px;
+}
+#container #contents .h2{
+    font-size: 34px;
+    color: #000000;
+
+}
+#container #contents .greettings{
+    padding: 70px 0 0;
+    color: #5e5e5e;
+    font-size: 15px;
+    line-height: 24px;
+}
+#container #contents .greetings:first-child{
+    padding:0 0 42px;
+}
+#container #contents .greettings p{
+    padding: 33px 0 0;
+    text-align: right;
+}
+
+#footer{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+#footer > a{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#footer > img{
+    padding: 42px 0 26px
+}
+#footer .nav li{
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+}
+#footer .nav li:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 14px;
+    background: #b2b2b2;
+}
+#footer .nav li:first-child:after{
+    display: none;
+}
+#footer .nav li a{
+    font-size: 13.5px;
+    color: #333;
+}
+#footer address{
+    font-size: 13.5px;
+    color: #666;
+    padding: 20px 0 38px;
+}
+#footer address em{
+    font-size: 12.5px;
+    color: #999;
+    display: block;
+    padding: 25px 0 0;
+}
+#footer .sns li{
+    display: inline-block;
+}
+#footer .sns li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../index_images/ico_footer_sns.gif) no-repeat;
+    overflow: hidden;
+    color: transparent;
+} 
+#footer .sns li.ico1 a{
+    background-position: 0 0;
+}
+#footer .sns li.ico2 a{
+    background-position: -43 0;
+}
+#footer .sns li.ico3 a{
+    background-position: -86 0;
+}
+#footer .sns li.ico1 a:hover{
+    background-position: 0 bottom;
+}
+#footer .sns li.ico2 a:hover{
+    background-position: -43 bottom;
+}
+#footer .sns li.ico3 a:hover{
+    background-position: -86 bottom;
+}

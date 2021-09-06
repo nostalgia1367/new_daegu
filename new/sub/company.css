@@ -1,0 +1,144 @@
+.h3{
+    font-size: 20px;
+    color: #000;
+    background: url(../sub/images/sub/bu_h3.gif) no-repeat 0 53px;
+    text-indent: 32px;
+
+    line-height: 100%;
+    padding: 50px 0 31px;
+}
+.info{
+    background: url(../sub/images/sub/bg_visual.jpg) no-repeat;
+    padding: 406px 0 0;
+    margin: 74px 0 0;
+    font-size: 15px;
+    color: #434343;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+.step{
+    border-top: 2px solid #d4d4d4;
+    border-bottom: 1px solid #ddd;
+}
+.step li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 37px 0 29px;
+    font-size: 14px;
+    color: #3c3c3d;
+    line-height: 22px;
+
+    position: relative;
+}
+.step li::after{
+    content: "";
+    display: block;
+    background: url(../sub/images/sub/bg_arrow.png) no-repeat #fff center;
+    width: 50px;
+    height: 10px;
+    position: absolute;
+    left: -13px;
+    top: -5px;
+}
+.step li:first-child::after{
+    display: none;
+}
+.step li strong{
+    display: block;
+    padding: 0 0 11px;
+    font-size: 14px;
+    color: #5b677a;
+    line-height: 100%;
+}
+
+.highway_ing{
+    border-top: 1px solid #a1a6b0;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 22px;
+}
+.highway_ing li:first-child{
+    float: none;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    margin: 0 0 22px;
+    position: relative;
+}
+.highway_ing li:first-child div{
+    padding: 0 0 0 95px;
+    height: auto;
+    border: none;
+}
+.highway_ing li:first-child::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.highway_ing li:first-child h4{
+    width: 95px;
+    height: 75px;
+    line-height: 75px;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+.highway_ing li:first-child span{
+    height: 75px;
+    line-height: 75px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+.highway_ing li{
+    float: left;
+    width: 25%;
+}
+.highway_ing li > div{
+     padding: 10px 40px 0 30px;
+     border-left: 1px solid #ddd;
+     color: #525a69;
+     height: 80px;
+     line-height: 100%;
+}
+.highway_ing li > div div{
+    font-size: 14px;
+    letter-spacing: -1px;
+    padding-top: 11px;
+}
+.highway_ing li > div h4{
+    padding: 0 0 9px;
+}
+.highway_ing li:first-child + li > div{
+    border-left:none;
+}
+.highway_ing li h4{
+    font-size: 15px;
+    color: #000;
+}
+.highway_ing li > div span{
+    font-size: 29px;
+    font-weight: bold;
+}
+.highway_ing li em{
+    font-size: 15px;
+    padding: 0 0 7px;
+}
+
+table.type1 tr:first-child th,table.type1 tr:first-child td{
+    border-top: 1px solid #a1a6b0;
+}
+table.type1 th,table.type1 td{
+    border-top: 1px solid #ddd;
+    padding: 28px 0 23px;
+}
+table.type1 th{
+    font-size: 16px;
+    color: #3b3a3a;
+    text-align: left;
+    padding: 28px 0 23px 44px;
+}
+table.type1 td{
+    font-size: 14px;
+    color: #566757;
+}
